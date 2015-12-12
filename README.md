@@ -12,11 +12,16 @@
 
  - (void) password:(NSString *) password
     {
+    
         if (password.length < 4) {
+
             [_lockView.lockLabel warnMsg:@"请连接至少4个点"];
             [_lockView clean];
             return;
+            
         }
+        
         [_lockView.lockLabel normalMsg:[NSString stringWithFormat:@"密码为:%@",password]];
         [_lockView clean];
+ 
     }
