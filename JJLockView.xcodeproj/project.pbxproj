@@ -16,6 +16,9 @@
 		04BCC3AC1C1A6F5E009BD536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BCC3AA1C1A6F5E009BD536 /* LaunchScreen.storyboard */; };
 		04BCC3B71C1A6F5E009BD536 /* JJLockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC3B61C1A6F5E009BD536 /* JJLockViewTests.m */; };
 		04BCC3C21C1A6F5E009BD536 /* JJLockViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC3C11C1A6F5E009BD536 /* JJLockViewUITests.m */; };
+		04BCC3D21C1A6FA5009BD536 /* JJLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC3D11C1A6FA5009BD536 /* JJLockView.m */; };
+		04BCC3D51C1A724D009BD536 /* JJRoundnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC3D41C1A724D009BD536 /* JJRoundnessView.m */; };
+		04BCC3D91C1AA8AB009BD536 /* JJLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC3D81C1AA8AB009BD536 /* JJLockLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,13 @@
 		04BCC3BD1C1A6F5E009BD536 /* JJLockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJLockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BCC3C11C1A6F5E009BD536 /* JJLockViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLockViewUITests.m; sourceTree = "<group>"; };
 		04BCC3C31C1A6F5E009BD536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BCC3D01C1A6FA5009BD536 /* JJLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLockView.h; sourceTree = "<group>"; };
+		04BCC3D11C1A6FA5009BD536 /* JJLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLockView.m; sourceTree = "<group>"; };
+		04BCC3D31C1A724D009BD536 /* JJRoundnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRoundnessView.h; sourceTree = "<group>"; };
+		04BCC3D41C1A724D009BD536 /* JJRoundnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRoundnessView.m; sourceTree = "<group>"; };
+		04BCC3D61C1AA2F8009BD536 /* JJLockConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLockConstant.h; sourceTree = "<group>"; };
+		04BCC3D71C1AA8AB009BD536 /* JJLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLockLabel.h; sourceTree = "<group>"; };
+		04BCC3D81C1AA8AB009BD536 /* JJLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLockLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,7 @@
 				04BCC39D1C1A6F5E009BD536 /* AppDelegate.m */,
 				04BCC39F1C1A6F5E009BD536 /* ViewController.h */,
 				04BCC3A01C1A6F5E009BD536 /* ViewController.m */,
+				04BCC3CF1C1A6F80009BD536 /* JJLockView */,
 				04BCC3A21C1A6F5E009BD536 /* Main.storyboard */,
 				04BCC3A81C1A6F5E009BD536 /* Assets.xcassets */,
 				04BCC3AA1C1A6F5E009BD536 /* LaunchScreen.storyboard */,
@@ -141,6 +152,20 @@
 				04BCC3C31C1A6F5E009BD536 /* Info.plist */,
 			);
 			path = JJLockViewUITests;
+			sourceTree = "<group>";
+		};
+		04BCC3CF1C1A6F80009BD536 /* JJLockView */ = {
+			isa = PBXGroup;
+			children = (
+				04BCC3D61C1AA2F8009BD536 /* JJLockConstant.h */,
+				04BCC3D01C1A6FA5009BD536 /* JJLockView.h */,
+				04BCC3D11C1A6FA5009BD536 /* JJLockView.m */,
+				04BCC3D31C1A724D009BD536 /* JJRoundnessView.h */,
+				04BCC3D41C1A724D009BD536 /* JJRoundnessView.m */,
+				04BCC3D71C1AA8AB009BD536 /* JJLockLabel.h */,
+				04BCC3D81C1AA8AB009BD536 /* JJLockLabel.m */,
+			);
+			path = JJLockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +301,10 @@
 				04BCC3A11C1A6F5E009BD536 /* ViewController.m in Sources */,
 				04BCC39E1C1A6F5E009BD536 /* AppDelegate.m in Sources */,
 				04BCC39B1C1A6F5E009BD536 /* main.m in Sources */,
+				04BCC3D21C1A6FA5009BD536 /* JJLockView.m in Sources */,
+				04BCC3D51C1A724D009BD536 /* JJRoundnessView.m in Sources */,
 				04BCC3A71C1A6F5E009BD536 /* JJLockView.xcdatamodeld in Sources */,
+				04BCC3D91C1AA8AB009BD536 /* JJLockLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

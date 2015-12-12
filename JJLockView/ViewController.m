@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "JJRoundnessView.h"
+#import "JJLockView.h"
 
-@interface ViewController ()
+@interface ViewController () <JJLockViewDalegate>
+
+@property (nonatomic, weak) IBOutlet JJLockView *lockView;
 
 @end
 
@@ -16,7 +20,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+   /*
+    * 代码创建
+    */
+//    CGRect rect = [UIScreen mainScreen].bounds;
+    
+//    _lockView = [[JJLockView alloc] init];
+//    _lockView.frame = CGRectMake(0, 0, rect.size.width,rect.size.height);
+//    _lockView.center = self.view.center;
+//    _lockView.dalegate  = self;
+//    [self.view addSubview:_lockView];
+    
+}
+//_lockView代理方法
+//方便继续定制
+- (void) password:(NSString *) password
+{
+    if (password.length < 4) {
+        [_lockView.lockLabel warnMsg:@"请连接至少4个点"];
+        [_lockView clean];
+        return;
+    }
+    [_lockView.lockLabel normalMsg:[NSString stringWithFormat:@"密码为:%@",password]];
+    [_lockView clean];
 }
 
 - (void)didReceiveMemoryWarning {
