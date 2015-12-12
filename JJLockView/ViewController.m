@@ -25,7 +25,7 @@
     * 代码创建
     */
 //    CGRect rect = [UIScreen mainScreen].bounds;
-    
+//    
 //    _lockView = [[JJLockView alloc] init];
 //    _lockView.frame = CGRectMake(0, 0, rect.size.width,rect.size.height);
 //    _lockView.center = self.view.center;
