@@ -25,3 +25,5 @@
         [_lockView clean];
  
     }
+
+![123](https://github.com/microcosmicDjj/JJLockView/blob/master/p.png)
