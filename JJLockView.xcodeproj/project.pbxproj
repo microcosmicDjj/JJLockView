@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046808A91C1EC03F00423C16 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = 046808A81C1EC03F00423C16 /* p.png */; };
 		04BCC39B1C1A6F5E009BD536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC39A1C1A6F5E009BD536 /* main.m */; };
 		04BCC39E1C1A6F5E009BD536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC39D1C1A6F5E009BD536 /* AppDelegate.m */; };
 		04BCC3A11C1A6F5E009BD536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC3A01C1A6F5E009BD536 /* ViewController.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046808A81C1EC03F00423C16 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
 		04BCC3961C1A6F5E009BD536 /* JJLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BCC39A1C1A6F5E009BD536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BCC39C1C1A6F5E009BD536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		04BCC38D1C1A6F5E009BD536 = {
 			isa = PBXGroup;
 			children = (
+				046808A81C1EC03F00423C16 /* p.png */,
 				04BCC3981C1A6F5E009BD536 /* JJLockView */,
 				04BCC3B51C1A6F5E009BD536 /* JJLockViewTests */,
 				04BCC3C01C1A6F5E009BD536 /* JJLockViewUITests */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BCC3AC1C1A6F5E009BD536 /* LaunchScreen.storyboard in Resources */,
+				046808A91C1EC03F00423C16 /* p.png in Resources */,
 				04BCC3A91C1A6F5E009BD536 /* Assets.xcassets in Resources */,
 				04BCC3A41C1A6F5E009BD536 /* Main.storyboard in Resources */,
 			);
@@ -528,6 +532,7 @@
 				04BCC3C81C1A6F5E009BD536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BCC3C91C1A6F5E009BD536 /* Build configuration list for PBXNativeTarget "JJLockViewTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				04BCC3CB1C1A6F5E009BD536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BCC3CC1C1A6F5E009BD536 /* Build configuration list for PBXNativeTarget "JJLockViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				04BCC3CE1C1A6F5E009BD536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
